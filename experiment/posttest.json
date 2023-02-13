@@ -2,37 +2,68 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What Is The First Step Of Fuzzy Logic Toolbox?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Fuzzification of the input variables",
+        "b": "Defuzzification",
+        "c": "Application of the fuzzy operator (AND or OR) in the antecedent",
+        "d": "Aggregation of the consequents across the rules"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What Is The Equation For Probabilistic?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Probor (a,b) = a-b + ab",
+        "b": "Probor (a,b) = ab + ab",
+        "c": "Probor (a,b) = a+b - ab",
+        "d": "Probor (a,b) = a/b x ab "
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What Is The Input And Output Of Step 3 - Apply Implication Method?",
+      "answers": {
+        "a": "Input is a fuzzy set but the output is a whole value",
+        "b": "Input is a whole value but the output can be a fuzzy set",
+        "c": "Input and output have the same value",
+        "d": "Input is a smaller value than the output value"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Mamdani's Fuzzy Inference Method Was Designed To Attempt What?",
+      "answers": {
+        "a": "Control any two combinations of any two products by synthesising a set of linguistic control rules obtained from experienced human operations.",
+        "b": "Control a television and remote combination by synthesising a set of linguistic control rules obtained from experienced human operations.",
+        "c": "Control a steam engine and a boiler combination by synthesising a set of linguistic control rules obtained from experienced human operations.",
+        "d": "Control a air craft and feul level combination by synthesising a set of linguistic control rules obtained from experienced human operations"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },{
+      "question": " What Is The Input And Output Of Step 2 - Apply Fuzzy Operator?",
+      "answers": {
+        "a": "The input is a single truth value and the output has two or more values",
+        "b": "The input is a value greater than one and the output is a value less than the input",
+        "c": "The input and output have both the same values",
+        "d": "The input has two or more values and the output has a single truth value"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What Is The Purpose Of Aggregation?",
+      "answers": {
+        "a": "To gather all the different fuzzy set outputs and combine them into a single fuzzy set outputs",
+        "b": "To gather all the possible inputs and use the average to gain an output",
+        "c": "To gather all the different fuzzy set outputs and average them out to get a single value",
+        "d": "To subtract all the output fuzzy set values from the input values"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
