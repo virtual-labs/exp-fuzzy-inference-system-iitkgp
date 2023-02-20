@@ -1,0 +1,208 @@
+body,html {margin:0; padding:0;background-color:#b3daff;}
+.clearfix { clear:both; }
+
+#divv1,#divv2
+{
+  float:left;
+  width:32px;
+  height:210px;   
+  background-image:url(../images/dm.png);
+  background-repeat:no-repeat;
+}
+#divv3{
+  float:top;
+  width:440px;
+  height:25px; 
+  margin-left:0px;  
+  background-image:url(../images/can3.png);
+  background-repeat:no-repeat;
+}
+#divv4{
+  float:top;
+  width:440px;
+  height:25px;   
+  background-image:url(../images/image2.png);
+  background-repeat:no-repeat;
+  margin-left:25px;
+  margin-top: 25px;  
+
+}
+#divv5{
+  float:top;
+  width:430px;
+  height:25px;   
+  background-image:url(../images/image1.png);
+  background-repeat:no-repeat;
+  margin-left:25px;
+  margin-top: 30px;  
+
+}
+#out1,#out2,#out3 {
+ display:block;
+ height:30px;
+ width:100%;
+}
+.wrapper {
+margin:0 auto;
+width:1200px; 
+height:670px; 
+}
+.uppersection {
+	width:100%;
+	height:70px;
+	border:0px solid #000;
+	color:#000000;
+	font-family:Georgia;
+	background-color: ##b3daff;
+}
+.lowersection {
+	width:100%;
+	height:600px;
+	border:0px solid yellow;
+	color:#0000FF;
+	background-color:##b3daff;
+}
+.lowerleftsection{
+	float:left;
+	width:597px;
+	height:600px;
+	color:#0000FF;
+/*	border-right:10px solid black;	
+*/}
+.lowerleftuppersection{
+	float:left;
+	width:597px;
+	height:270px;
+	color:#0000FF;
+	background-color:##b3daff;
+	 border:0px solid red;
+}
+.lowerleftlowerSection{
+	float:left;
+	width:597px;
+	height:330px;
+	color:#0000FF;
+	background-color:##b3daff;
+	 border:0px solid red;
+}
+/*.lowermiddlesection{	
+	position:absolute;
+	width:10px;
+	height:900px;
+	left:795px;
+	border:0px solid black;
+	color:#0000FF;
+	background-color:#000000;
+}
+*/
+.lowermiddleSection{
+    float:left; 
+	width:6px;
+	height:600px;
+}
+.lowermiddleSection1{
+	background-color:#000000;
+	margin-top:35px;
+	float:left; 
+	width:6px;
+	height:540px;
+	
+}
+.lowerrightsection {
+	float:right;
+	width:597px;
+	height:600px;
+	color:#0000FF;
+}
+.lowerrightupperSection{
+	float:right;
+	width:597px;
+	height:250px;
+	color:#0000FF;
+	background-color:##b3daff;
+	position:center;
+}
+.lowerrightlowerSection{
+/*    margin-left:5px;
+*/	float:right;
+	width:580px;
+	height:350px;
+	color:#0000FF;
+	text-align:left;
+	font-family:Georgia;
+	font-size:11px;
+}
+.canvas2d-view{
+	margin:0 auto;
+	width:475px;
+	height:190px;
+	margin-top:15px;
+}
+#mycanvas1,#mycanvas2,#mycanvas3{
+color:#0000FF;
+background-color:#ffffff;
+border:1.5px solid black;
+}
+.btn{
+	margin:0 auto;
+	width:400px;
+	color:#0000FF;
+    margin-top:15px;	
+	}
+.btn ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.btn ul li {
+    float:left;
+	display:inline-table;
+	width:33%;
+	text-align:center;
+}
+
+#btn_rslt{
+
+	float:left;
+    width:100px;
+	height:40px;
+	border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+/*	align="left"
+   box-shadow:0 3px #999;*/ 
+	font-size:18px; 
+	}
+#btn_clr{
+	float:right;
+    width:100px;
+	height:40px;
+	border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+/*	box-shadow:0 3px #999; 
+*/	font-size:18px; 
+}
+#btn_how{
+    width:100px;
+	height:40px;
+	border-radius:10px;
+/*	align="right"
+*/    margin-left:auto;
+    margin-right:auto;
+/*    box-shadow:0 3px #999; 
+*/    font-size:18px; 
+}
+.lowerrightlowerSection p {
+	margin:0;
+	display:block;
+	clear:both;
+}
+
+.lowerrightlowerSection p.addTick { 
+    background-image:url(../images/tick.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	background-size:17px;
+	color:#1b030a;
+}
