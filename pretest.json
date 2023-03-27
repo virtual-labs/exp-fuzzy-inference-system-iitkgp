@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What Is Fuzzy Inference Systems?",
+      "answers": {
+        "a": "The process of formulating the mapping from a given input to an output using fuzzy logic",
+        "b": "Changing the output value to match the input value to give it an equal balance",
+        "c": "Having a larger output than the input",
+        "d": "Having a smaller output than the input"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Where Has Fuzzy Inference Systems Been Implemented?",
+      "answers": {
+        "a": "Wireless services, heat control and printers",
+        "b": "Restrict power usage, telephone lines and sort data",
+        "c": "Simulink, boiler and CD recording",
+        "d": "Automatic control, decision analysis and data classification"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What Are The Two Types Of Fuzzy Inference Systems?",
+      "answers": {
+        "a": "Model-Type and System-Type",
+        "b": "Momfred-Type and Semigi-Type",
+        "c": "Mamdani-Type and Sugeno-Type",
+        "d": "Mihni-Type and Sujgani-Type"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
